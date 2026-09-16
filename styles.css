@@ -1,0 +1,193 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 0;
+    height: auto;
+}
+
+body {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+div > img {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+button {
+    height: 50px;
+}
+
+#services:hover, #products:hover {
+    color: rgb(240, 103, 53);
+    text-decoration: underline;
+}
+
+.contact-info {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* start page 1 */
+#sju {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+#services, #products {
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    text-decoration: none;
+    color: black;
+}
+
+.page1-content {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#page1-heading {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+#page1-text {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+#page1-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+#schedule-call {
+    margin-top: 25px;
+    width: fit-content;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+#page1-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+#page1-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.contacts {
+    color: grey;
+}
+/* end page 1 */
+
+/* start page 2 */
+#page2-title {
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 40px;
+    padding-right: 100px;
+}
+
+b {
+    font-style: bold;
+    font-size: 60px;
+}
+
+.can-do-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.page2-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#do1, #do2, #do3, #do4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px; 
+    min-height: 320px; 
+}
+
+#page2-contacts {
+    padding-bottom: 30px;
+}
+/* end page 2 */
+
+/* start page 3 */
+.page3-content {
+    display: flex;
+    flex-direction: column;
+}
+
+#page3-title {
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 40px;
+    padding-right: 100px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+#prod1, #prod2, #prod3, #prod4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 250px;
+    min-height: 320px;
+}
+
+#page3-contacts {
+    padding-bottom: 30px;
+}
+/* end page 3 */
+
+/* mobile */
+@media (max-width: 768px) {
+    #page1-heading {
+        font-size: 32px;
+    }
+
+    #page1-text {
+        font-size: 18px;
+    }
+
+    #page3-title,
+    #page2-title {
+        padding-right: 0;
+        text-align: center;
+    }
+}

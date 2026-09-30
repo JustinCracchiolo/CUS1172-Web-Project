@@ -23,8 +23,14 @@ button {
     height: 50px;
 }
 
+button:hover {
+    background-color: red;
+    color: white;
+    text-decoration: underline;
+}
+
 #services:hover, #products:hover {
-    color: rgb(240, 103, 53);
+    color: rgb(249, 69, 4);
     text-decoration: underline;
 }
 

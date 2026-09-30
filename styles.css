@@ -1,10 +1,19 @@
 .navbar {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    gap: 70px;
+    justify-content: space-between; 
     padding: 10px 0;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 100px;
+}
+
+#sju {
+    max-width: 350px;
     height: auto;
 }
 

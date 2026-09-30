@@ -35,7 +35,7 @@ button:hover {
 }
 
 .contact-info {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -135,6 +135,8 @@ b {
     flex-direction: column;
 }
 
+/*
+
 #do1, #do2, #do3, #do4 {
     display: flex;
     flex-direction: column;
@@ -142,6 +144,20 @@ b {
     width: 250px; 
     min-height: 320px; 
 }
+*/
+
+#do1, #do2, #do3, #do4 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    min-height: 320px;
+}
+
+#do1 img, #do2 img, #do3 img, #do4 img {
+    margin-top: auto;
+    height: 180px;
+}
+
 
 #page2-contacts {
     padding-bottom: 30px;
@@ -168,12 +184,27 @@ b {
     gap: 30px;
 }
 
+/* 
+
 #prod1, #prod2, #prod3, #prod4 {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
     width: 250px;
     min-height: 320px;
+}
+*/
+
+#prod1, #prod2, #prod3, #prod4 {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    min-height: 320px;
+}
+
+#prod1 img, #prod2 img, #prod3 img, #prod4 img {
+    margin-top: auto;
+    height: 180px;
 }
 
 #page3-contacts {
